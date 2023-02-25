@@ -1213,9 +1213,9 @@ def passwrd():
 					pwv.append(frs+'1234567') 
 					pwv.append(frs+'112233') 
 					pwv.append(frs+'12345678') 
-					pwv.append(frs+'123456789') 
-					pwv.append(frs+'1234567890') 
-					pwv.append(frs+'21')
+					pwv.append(frs+'05') 
+					pwv.append(frs+'01') 
+					pwv.append(frs+'03')
 			if 'ya' in pwpluss: 
 				for xpwd in pwnya: 
 					pwv.append(xpwd) 
@@ -1252,7 +1252,19 @@ def method_api(idf,pwv):
 	'Mozilla/5.0 (Linux; U; Android 4.4.4; en-US; HM 1S Build/KTU84Q) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.4.1.565 U3/0.8.0 Mobile Safari/534.30',
 	'Mozilla/5.0 (Linux; Android 4.4.4; HM 1S Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safari/537.36',
 	'Mozilla/5.0 (Linux; Android 8.1.1; Redmi 11 Lite Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.565575.109 Mobile Safari/537.36',
-	'Mozilla/5.0 (Linux; Android 11; Redmi G25 Series) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36'])
+	'Mozilla/5.0 (Linux; Android 11; Redmi G25 Series) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36',
+        'Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) JioPages/4.0 Chrome/101.0.4951.41 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 9; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 OPR/73.0.3843.69488',
+	'Mozilla/5.0 (Linux; U; Android 8.1.0; Redmi 5A Build/OPM2.171026.006.H1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 OPR/39.1.2254.137527',
+	'Mozilla/5.0 (Linux; Android 8.1.0; Redmi 5A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile SFB/15.0.0024.18 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10; M2006C3LG Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.29 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; arm; Android 10; M2006C3LG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.330.00 SA/3 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 7.1.2; Galaxy Tab S6 Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10; Lenovo TB-8705F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.79 Safari/537.36',
+	'Mozilla/5.0 (Linux; U; Android 9; ANE-LX1 Build/HUAWEIANE-L01; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 OPR/2.3.0',
+	'Mozilla/5.0 (Linux; Android 7.1.1; SM-T350 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.65 Safari/537.36 [FB_IAB/FB4A;FBAV/403.0.0.5.81;]',
+	'Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; RMX1805 Build/OPM1.171019.026) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 9; PCHM30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'])
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
